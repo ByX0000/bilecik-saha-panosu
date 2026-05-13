@@ -120,7 +120,7 @@ export const municipality: TeamGroup[] = [
     alt: 'İki gün boyunca araç koordinasyonu',
     uyeler: [],
     checklist: [
-      { id: 'u1', text: '17 Mayıs 10:00 — Gölpazarı varış karşılama aracı hazır' },
+      { id: 'u1', text: '17 Mayıs 09:30 — Gölpazarı varış karşılama aracı hazır (kooperatife doğrudan geçiş)' },
       { id: 'u2', text: 'Gün içi transferler için sürücü atanmış (Kınık Köyü, Kurşunlu, kooperatif)' },
       { id: 'u3', text: '18 Mayıs Pazaryeri/Kınık geçişi için lojistik plan' },
       { id: 'u4', text: 'Drone operatörlerinin yüksek tepelere ulaşımı için 4x4 destek' },
@@ -133,11 +133,12 @@ export const municipality: TeamGroup[] = [
     alt: 'Öğretmen ve öğrenci yemek koordinasyonu',
     uyeler: [],
     checklist: [
-      { id: 'y1', text: '17 Mayıs 10:00 varış kahvaltısı — Belediye Çay Bahçesi' },
-      { id: 'y2', text: '17 Mayıs öğle yemeği — Ala Et Lokantası (ısırgan otlu tarhana tadımı dahil)' },
-      { id: 'y3', text: '17 Mayıs akşam yemeği ve konaklama servisi' },
-      { id: 'y4', text: '18 Mayıs Kınık saha atıştırmalığı (su, çay, yerel fırın ekmeği)' },
-      { id: 'y5', text: '18 Mayıs Pazaryeri kapanış yemeği — Sn. Zekiye Tekin katılımıyla' },
+      { id: 'y1', text: '17 Mayıs 09:30 varış — Belediye Çay Bahçesi kısa karşılama (kahvaltı kooperatifte)' },
+      { id: 'y2', text: '17 Mayıs 10:00 — Nefsi-Göl Kooperatifi’nde ekmek belgeseli + ekip kahvaltısı (Yaşariye Hanım)' },
+      { id: 'y3', text: '17 Mayıs 13:00 öğle yemeği — Ala Et Lokantası (ısırgan otlu tarhana tadımı dahil)' },
+      { id: 'y4', text: '17 Mayıs akşam yemeği ve konaklama servisi' },
+      { id: 'y5', text: '18 Mayıs Kınık saha atıştırmalığı (su, çay, yerel fırın ekmeği)' },
+      { id: 'y6', text: '18 Mayıs Pazaryeri kapanış yemeği — Sn. Zekiye Tekin katılımıyla' },
     ],
   },
   {

@@ -6,16 +6,19 @@ export type ProgramItem = {
   bolge?: 'golpazari' | 'pazaryeri' | 'yol';
 };
 
+// 17 Mayıs 2026 — PAZAR
+// Yaşariye Hanım ile röportaj ve ekmek yapma belgeseli sabah 10:00'a alındı;
+// resmi protokol röportajları öğle sonrasına kaydırıldı.
 export const program17Mayis: ProgramItem[] = [
   { saat: '05:00', baslik: 'İstanbul’dan çıkış', detay: 'GİKAL’den hareket', ekip: 'ortak', bolge: 'yol' },
-  { saat: '10:00', baslik: 'Gölpazarı varış', detay: 'Belediye Çay Bahçesi karşılama kahvaltısı', ekip: 'ortak', bolge: 'golpazari' },
-  { saat: '10:30', baslik: 'Sn. Hayri Suer — Belediye Başkanı röportajı', detay: 'Belediye Binası', ekip: 'A', bolge: 'golpazari' },
-  { saat: '11:30', baslik: 'Sn. Feyza Nur Kılıç — Kaymakam röportajı', detay: 'Kaymakamlık', ekip: 'A', bolge: 'golpazari' },
-  { saat: '12:30', baslik: 'Sn. Turgut Akagündüz — İlçe MEM röportajı', detay: 'İlçe MEM', ekip: 'A', bolge: 'golpazari' },
-  { saat: '13:30', baslik: 'Öğle yemeği — Ala Et Lokantası', detay: 'Isırgan otlu tarhana tadımı', ekip: 'ortak', bolge: 'golpazari' },
-  { saat: '15:00', baslik: 'Anatolian Harps atölyesi', detay: 'Zeynep Öykü & Ali Öztürk', ekip: 'A', bolge: 'golpazari' },
-  { saat: '16:30', baslik: 'Bedriye Berber Engin — Kurşunlu Köyü', detay: 'Hayat hikâyesi sohbeti', ekip: 'A', bolge: 'golpazari' },
-  { saat: '17:30', baslik: 'Yaşariye Akkaya — Nefsi-Göl Kooperatifi', detay: 'Bahçede tezgah, fırında ekmek, ısırgan otlu tarhana', ekip: 'A', bolge: 'golpazari' },
+  { saat: '09:30', baslik: 'Gölpazarı varış', detay: 'Belediye Çay Bahçesi’nde kısa karşılama, kooperatife geçiş', ekip: 'ortak', bolge: 'golpazari' },
+  { saat: '10:00', baslik: 'EKMEK YAPMA BELGESELİ — Yaşariye Akkaya', detay: 'Nefsi-Göl Kadın Kooperatifi · röportaj + fırında ekmek, ısırgan otlu tarhana, ekip kahvaltısı', ekip: 'A', bolge: 'golpazari' },
+  { saat: '12:00', baslik: 'Sn. Hayri Suer — Belediye Başkanı röportajı', detay: 'Belediye Binası', ekip: 'A', bolge: 'golpazari' },
+  { saat: '13:00', baslik: 'Öğle yemeği — Ala Et Lokantası', detay: 'Isırgan otlu tarhana tadımı', ekip: 'ortak', bolge: 'golpazari' },
+  { saat: '14:00', baslik: 'Sn. Feyza Nur Kılıç — Kaymakam röportajı', detay: 'Kaymakamlık', ekip: 'A', bolge: 'golpazari' },
+  { saat: '15:00', baslik: 'Sn. Turgut Akagündüz — İlçe MEM röportajı', detay: 'İlçe MEM', ekip: 'A', bolge: 'golpazari' },
+  { saat: '16:00', baslik: 'Anatolian Harps atölyesi', detay: 'Zeynep Öykü & Ali Öztürk', ekip: 'A', bolge: 'golpazari' },
+  { saat: '17:30', baslik: 'Bedriye Berber Engin — Kurşunlu Köyü', detay: 'Hayat hikâyesi sohbeti', ekip: 'A', bolge: 'golpazari' },
   { saat: '19:30', baslik: 'GÜN BATIMI — “Geleceğin Tınısı” çekimi', detay: 'Buket, Maya, Taha Taylan — modern icra', ekip: 'ortak', bolge: 'golpazari' },
   { saat: '21:00', baslik: 'Akşam yemeği & konaklama', detay: 'Ekip toplantısı', ekip: 'ortak', bolge: 'golpazari' },
 ];

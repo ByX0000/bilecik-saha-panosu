@@ -2,7 +2,17 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Compass, Sparkles, Sun, Sunrise } from 'lucide-react';
+import {
+  ArrowUpRight,
+  Compass,
+  Sparkles,
+  Sun,
+  Sunrise,
+  MapPin,
+  Landmark,
+  Mountain,
+  Hammer,
+} from 'lucide-react';
 import { PageHeader, SectionTitle, Eyebrow } from '@/components/PageHeader';
 import { Card, Pill, Divider } from '@/components/UI';
 import { interviews } from '@/data/interviews';
@@ -109,6 +119,86 @@ export default function Pano() {
           </div>
         ))}
       </section>
+
+      {/* BİLECİK TANITIM */}
+      <section>
+        <div className="mb-6 flex items-baseline justify-between">
+          <SectionTitle>Bilecik · Köklerin İli</SectionTitle>
+          <Eyebrow>Saha Notu</Eyebrow>
+        </div>
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-12">
+          <div className="md:col-span-7">
+            <p className="font-body text-[15px] leading-relaxed text-ink-500 md:text-[17px]">
+              Bilecik, Marmara'nın iç kapısında; Söğüt'te bir devletin doğduğu,
+              Şeyh Edebali'nin sözünün hâlâ duyulduğu, mermer ve seramik
+              ocaklarının Anadolu'yu dünyaya bağladığı bir Osmanlı toprağıdır.
+              17–18 Mayıs saha çalışmasının iki adresi — Gölpazarı ile
+              Pazaryeri — bu coğrafyanın iki farklı yüzünü temsil eder:
+              kooperatifin sofrası ve çömleğin çarkı.
+            </p>
+            <p className="mt-4 font-body text-[14px] leading-relaxed text-ink-400 md:text-[15px]">
+              Sakarya nehri ilin ortasından geçer; Yenipazar kanyonları ile
+              Meryem Dağı eteklerinde tarih ve doğa iç içedir. Osman Gazi'nin
+              türbesi Söğüt'te; Bilecik bu yüzden sadece bir il değil, bir
+              başlangıç noktasıdır.
+            </p>
+          </div>
+          <div className="md:col-span-5">
+            <div className="grid grid-cols-2 gap-3">
+              <Card className="bg-cream/80">
+                <Landmark size={16} className="text-ink-500" />
+                <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-ink-400">
+                  Osmanlı'nın Beşiği
+                </div>
+                <div className="mt-1 font-display text-[18px] font-semibold leading-tight text-ink-700">
+                  1299 · Söğüt
+                </div>
+                <p className="mt-1.5 text-[12px] leading-relaxed text-ink-500">
+                  Devletin kurulduğu topraklar; Şeyh Edebali'nin nasihati.
+                </p>
+              </Card>
+              <Card className="bg-cream/80">
+                <MapPin size={16} className="text-ink-500" />
+                <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-ink-400">
+                  8 İlçe · ~228K nüfus
+                </div>
+                <div className="mt-1 font-display text-[18px] font-semibold leading-tight text-ink-700">
+                  4.307 km²
+                </div>
+                <p className="mt-1.5 text-[12px] leading-relaxed text-ink-500">
+                  Söğüt · Osmaneli · Bozüyük · Gölpazarı · Pazaryeri · Yenipazar · İnhisar
+                </p>
+              </Card>
+              <Card className="bg-cream/80">
+                <Hammer size={16} className="text-ink-500" />
+                <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-ink-400">
+                  Zanaat & Üretim
+                </div>
+                <div className="mt-1 font-display text-[18px] font-semibold leading-tight text-ink-700">
+                  Mermer · Seramik
+                </div>
+                <p className="mt-1.5 text-[12px] leading-relaxed text-ink-500">
+                  Türkiye mermerinin merkezlerinden; Bozüyük seramikte söz sahibi.
+                </p>
+              </Card>
+              <Card className="bg-cream/80">
+                <Mountain size={16} className="text-ink-500" />
+                <div className="mt-3 font-mono text-[10px] uppercase tracking-[0.16em] text-ink-400">
+                  Coğrafya
+                </div>
+                <div className="mt-1 font-display text-[18px] font-semibold leading-tight text-ink-700">
+                  Sakarya · Kanyon
+                </div>
+                <p className="mt-1.5 text-[12px] leading-relaxed text-ink-500">
+                  Sakarya nehri, Yenipazar kanyonları, Meryem Dağı silüeti.
+                </p>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Divider />
 
       {/* İKİ BÖLGE */}
       <section>

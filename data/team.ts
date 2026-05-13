@@ -134,7 +134,7 @@ export const municipality: TeamGroup[] = [
     uyeler: [],
     checklist: [
       { id: 'y1', text: '17 Mayıs 09:30 varış — Belediye Çay Bahçesi kısa karşılama (kahvaltı kooperatifte)' },
-      { id: 'y2', text: '17 Mayıs 10:00 — Nefsi-Göl Kooperatifi’nde ekmek belgeseli + ekip kahvaltısı (Yaşariye Hanım)' },
+      { id: 'y2', text: '18 Mayıs (Pazar) 10:00 — Nefsi-Göl Kooperatifi’nde ekmek belgeseli + ekip kahvaltısı (Yaşariye Hanım, A grubu)' },
       { id: 'y3', text: '17 Mayıs 13:00 öğle yemeği — Ala Et Lokantası (ısırgan otlu tarhana tadımı dahil)' },
       { id: 'y4', text: '17 Mayıs akşam yemeği ve konaklama servisi' },
       { id: 'y5', text: '18 Mayıs Kınık saha atıştırmalığı (su, çay, yerel fırın ekmeği)' },
